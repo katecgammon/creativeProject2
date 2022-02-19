@@ -1,0 +1,89 @@
+h1 {
+    text-align: center;
+    font-size: 100px;
+    background-color: tan;
+    margin: 0;
+    padding: 50px;
+}
+.button_holder {
+    display: flex;
+    justify-content: center;
+}
+button {
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#dog1 img {
+    /* height: 300px; */
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dog2 img {
+    /* height: 300px; */
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dog3 img {
+    /* height: 300px
+    ; */
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dog4 img {
+    /* height: 300px; */
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dog5 img {
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dog6 img {
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dog7 img {
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dog8 img {
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dog9 img {
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dog10 img {
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dog11 img {
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dog12 img {
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dogs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    /* justify-content: space-between; */
+}
