@@ -2,7 +2,6 @@ document.getElementById("button").addEventListener("click", function(event) {
     event.preventDefault();
     
     const url = "https://dog.ceo/api/breeds/image/random";
-    // const url = "http://api.openweathermap.org/data/2.5/weather?q=" + value + ",US&units=imperial" + "&APPID=089748c20f4f25d78778f5ddf712485f";
     fetch(url)
       .then(function(response) {
         return response.json();
