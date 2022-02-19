@@ -1,13 +1,19 @@
+body {
+    margin: 0;
+}
 h1 {
     text-align: center;
     font-size: 100px;
     background-color: tan;
     margin: 0;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
 }
 .button_holder {
     display: flex;
     justify-content: center;
+    background-color: tan;
 }
 button {
     height: 50px;
@@ -85,5 +91,23 @@ button {
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;
-    /* justify-content: space-between; */
+    background-image: linear-gradient(tan, white);
+    padding-bottom: 150px;
+    justify-content: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: tan;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: fixed;
+    bottom: 0px;
+}
+
+@media screen and (max-width: 530px) {
+    h1 {
+        font-size: 50px;
+    }
 }
